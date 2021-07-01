@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">otlobna</string>
+
+    <string name="my_preference">MyAppOtlob</string>
+    <string name="my_preference_key">MyAppOtlobKey</string>
+
+    <string name="text1">جميع الحقوق محفوظه 2019</string>
+    <string name="text2">مرحبا</string>
+    <string name="text3">او</string>
+    <string name="text4">تسجيل الدخول</string>
+    <string name="text5">ليس لديك حساب؟</string>
+    <string name="text6">انشاء حساب</string>
+    <string name="text7">تسجيل الدخول؟</string>
+    <string name="text8">اسم العميل :</string>
+    <string name="text9">المكان :</string>
+    <string name="text10">الهاتف :</string>
+    <string name="text11">قيمه الطلب بالتوصيل :</string>
+    <string name="text12">: ID</string>
+    <string name="text13">وسط</string>
+    <string name="text14">صغير</string>
+    <string name="text15">وقت وصول الطلب :</string>
+    <string name="text16">حالا</string>
+    <string name="text17">ادخال الوقت</string>
+    <string name="text18">اطلب الان</string>
+    <string name="text19">العميل :</string>
+    <string name="text20">الطيار</string>
+    <string name="text21">التاريخ</string>
+    <string name="text22">من:</string>
+    <string name="text23">الي:</string>
+    <string name="text24">احمد ريان</string>
+    <string name="text25">اضافه طلب</string>
+    <string name="text26">اسم الجهه او المكان</string>
+    <string name="text27">مدينه نصر-مصر الجديده-الدقي</string>
+    <string name="text28">الخط الساخن</string>
+    <string name="Topic">التخصص</string>
+    <string name="text29">الصفحه الشخصيه</string>
+    <string name="text30">الاعدادات</string>
+    <string name="text31">تسجيل الخروج</string>
+    <string name="action_sign_in">تسجيل دخول</string>
+    <string name="city">بني سويف</string>
+    <string name="details">التفاصيل :</string>
+
+
+    <string name="rongInput">مدخلات خاطئه</string>
+    <string name="validNumber">ادخل رقم صحيح.</string>
+    <string name="shouldChar">يجب علي الاقل 4 حروف ابجديه</string>
+    <string name="noInternet">لا يوجد انترنت</string>
+
+
+    <string name="btn1">تسجيل دخول</string>
+    <string name="btn2">انشاء حساب</string>
+    <string name="btn3">دخول</string>
+    <string name="btn4">الخريطه</string>
+    <string name="btn5">مطاعم</string>
+    <string name="btn6">صيدليات</string>
+    <string name="btn7">شحن</string>
+    <string name="btn8">اخري</string>
+
+
+    <string name="hint1">الايميل</string>
+    <string name="hint2">الرقم السري</string>
+    <string name="hint3">الاسم ثنائي</string>
+    <string name="hint4">رقم التليفون</string>
+    <string name="hint5">الباسورد</string>
+    <string name="hint6">تأكيد الباسورد</string>
+    <string name="hint7">التخصص</string>
+    <string name="hint8">المكان</string>
+    <string name="hint9">خط الطول</string>
+    <string name="hint10">خط العرض</string>
+    <string name="hint11">اطلبلي</string>
+    <string name="hint12">احمد ريان</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_request">الطلب</string>
+    <string name="title_activity_requestes">Requestes</string>
+    <string name="title_activity_other">Other</string>
+    <string name="title_activity_orders">Orders</string>
+    <string name="tab_text_1">الان</string>
+    <string name="tab_text_2">طلبات جديده</string>
+    <string name="tab_text_3">طلبات سابقه</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="first_screen_title">Everywhere</string>
+    <string name="first_screen_description">We can get your order from any location you want</string>
+    <string name="second_screen_description">Arrive the order to you at specific time</string>
+    <string name="second_screen_title">At Time</string>
+    <string name="third_screen_title">To Your Hand</string>
+    <string name="third_screen_description">Handing the order to your  hand</string>
+    <string name="choose_tayar_button">اختيار</string>
+
+
+    <string name="email">الايميل :</string>
+    <string name="password">الرقم السري :</string>
+    <string name="name">الاسم :</string>
+    <string name="phone">رقم الهاتف :</string>
+    <string name="ssd">الرقم القومي :</string>
+    <string name="address">العنوان :</string>
+    <string name="online">اون لاين</string>
+    <string name="offline">اوف لاين</string>
+    <string name="title_activity_add_location_order">Map</string>
+    <string name="title_activity_update_location_map">Map</string>
+    <string name="title_activity_tracking_map">Map</string>
+</resources>

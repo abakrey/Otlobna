@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="10dp"
+    android:layout_margin="16dp"
+    card_view:cardUseCompatPadding="true"
+    android:background="#fff"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/Answer"
+            android:layout_gravity="center_horizontal">
+            <RadioButton
+                android:buttonTint="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تم استلام الطلب"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/StatusTwo"
+                android:fontFamily="@font/cairo_regular"
+                />
+            <RadioButton
+                android:buttonTint="@color/colorPrimaryDark"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تم ايصال الطلب"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/StatusThree"
+                android:fontFamily="@font/cairo_regular"
+                />
+        </RadioGroup>
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/DoneStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_button"
+            android:fontFamily="@font/cairo_bold"
+            android:gravity="center_horizontal"
+            android:text="تم"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_below="@id/Answer"
+            android:layout_marginTop="10dp"
+            android:textDirection="rtl"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

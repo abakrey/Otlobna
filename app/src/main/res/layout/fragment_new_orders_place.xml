@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Views.NewOrdersPlace">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerviewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/addOrder"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/red_button"
+        android:text="+"
+        android:textSize="40dp" />
+
+</RelativeLayout>

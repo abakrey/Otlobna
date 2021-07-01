@@ -1,0 +1,46 @@
+package com.example.otlobna.Adapter;
+
+import android.content.Context;
+import android.support.annotation.NonNull;
+import android.support.v4.view.PagerAdapter;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+public class IntroPageAdapter extends PagerAdapter {
+
+    private int [] Layouts ;
+    private LayoutInflater layoutInflater ;
+    private Context context ;
+
+    public  IntroPageAdapter(int [] Layouts  , Context context)
+    {
+        this.context = context ;
+        this.Layouts = Layouts ;
+        layoutInflater =(LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+
+    }
+
+    @Override
+    public int getCount() {
+        return Layouts.length;
+    }
+
+    @Override
+    public boolean isViewFromObject(@NonNull View view, @NonNull Object object) {
+        return view==object;
+    }
+
+    @Override
+    public Object instantiateItem( ViewGroup container, int position) {
+        View view = layoutInflater.inflate(Layouts[position] , container , false) ;
+        container.addView(view);
+        return view;
+    }
+
+    @Override
+    public void destroyItem( ViewGroup container, int position, @NonNull Object object) {
+        View view = (View)object ;
+        container.removeView(view);
+    }
+}

@@ -1,0 +1,71 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="intro_first_title_text_size">14sp</dimen>
+    <dimen name="intro_first_title_margin_bottom">7dp</dimen>
+    <dimen name="intro_first_img_width">60dp</dimen>
+    <dimen name="intro_first_img_height">60dp</dimen>
+    <dimen name="intro_first_description_margin_left">5dp</dimen>
+    <dimen name="intro_first_description_margin_right">5dp</dimen>
+    <dimen name="intro_first_description_padding_bottom">0dp</dimen>
+    <dimen name="intro_first_description_text_size">4sp</dimen>
+
+    <dimen name="content_request_customer_name_margin_left">5dp</dimen>
+    <dimen name="content_request_customer_name_margin_top">5dp</dimen>
+    <dimen name="content_request_customer_name_margin_rigt">5dp</dimen>
+    <dimen name="content_request_customer_name_txt_size">7sp</dimen>
+    <dimen name="content_request_customer_title_margin_top">5dp</dimen>
+    <dimen name="content_request_customer_title_margin_rigt">5dp</dimen>
+    <dimen name="content_request_customer_title_padding">5dp</dimen>
+    <dimen name="content_request_customer_address_content_margin_left">5dp</dimen>
+    <dimen name="content_request_customer_address_content_margin_right">5dp</dimen>
+    <dimen name="content_request_customer_address_content_size">7sp</dimen>
+    <dimen name="content_request_customer_title_size">7sp</dimen>
+    <dimen name="content_request_customer_address_title_margin_right">5dp</dimen>
+    <dimen name="content_request_customer_address_title_padding">1dp</dimen>
+    <dimen name="content_request_customer_address_title_size">7sp</dimen>
+    <dimen name="content_request_customer_map_btn_margin_left">5dp</dimen>
+    <dimen name="content_request_customer_map_btn_padding">1dp</dimen>
+    <dimen name="content_request_customer_map_btn_txt_size">7sp</dimen>
+    <dimen name="content_request_customer_phone_margin_left">5dp</dimen>
+    <dimen name="content_request_customer_phone_margin_right">1dp</dimen>
+    <dimen name="content_request_customer_phone_txt_size">7sp</dimen>
+    <dimen name="content_request_customer_phone_title_margin_right">5dp</dimen>
+    <dimen name="content_request_customer_phone_title_padding">1dp</dimen>
+    <dimen name="content_request_customer_phone_title_txt_size">7sp</dimen>
+    <dimen name="content_request_customer_price_margin_right">1dp</dimen>
+    <dimen name="content_request_customer_price_margin_left">5dp</dimen>
+    <dimen name="content_request_customer_price_txt_size">7sp</dimen>
+    <dimen name="content_request_customer_price_title_txt_size">7sp</dimen>
+    <dimen name="content_request_customer_price_title_padding">1dp</dimen>
+    <dimen name="content_request_customer_price_title_margin_right">5dp</dimen>
+    <dimen name="content_request_customer_radio_txt_padding">1dp</dimen>
+    <dimen name="content_request_customer_radio_txt_size">7sp</dimen>
+    <dimen name="content_request_customer_radio_txt_margin_left">5dp</dimen>
+    <dimen name="content_request_order_now_padding">1dp</dimen>
+    <dimen name="content_request_order_now_margin_top">5dp</dimen>
+    <dimen name="content_request_order_now_margin_bottom">5dp</dimen>
+    <dimen name="content_request_arrival_time_size">7sp</dimen>
+    <dimen name="content_request_arrival_time_margin_right">5dp</dimen>
+
+    <dimen name="row_available_tayar_btn_margin_left">10dp</dimen>
+    <dimen name="row_available_tayar_name_width">0dp</dimen>
+    <dimen name="row_available_tayar_name_hiegth">30dp</dimen>
+    <dimen name="row_available_tayar_btn_text_size">9sp</dimen>
+    <dimen name="row_available_tayar_name_margin_left">4dp</dimen>
+    <dimen name="row_available_tayar_name_margin_right">4dp</dimen>
+    <dimen name="row_available_tayar_name_text_size">9sp</dimen>
+    <dimen name="row_available_tayar_img_width">30dp</dimen>
+    <dimen name="row_available_tayar_img_height">30dp</dimen>
+    <dimen name="row_available_tayar_img_margin_left">3dp</dimen>
+    <dimen name="row_available_tayar_img_margin_right">3dp</dimen>
+    <dimen name="content_request_order_now_container_radius">4dp</dimen>
+    <dimen name="content_request_order_now_container_elevation">4dp</dimen>
+    <dimen name="row_available_tayar_btn_padding_left">3dp</dimen>
+    <dimen name="row_available_tayar_btn_padding_right">3dp</dimen>
+</resources>

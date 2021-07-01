@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#A21A1E</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBtnI">#781416</color>
+    <color name="colorBtnO">#C55456</color>
+    <color name="colorRecycle">#F4F4F4</color>
+    <color name="colorYellow">#F2D503</color>
+    <color name="description_color_intro">#000</color>
+    <color name="colorNotAcvtiveDot">#fff</color>
+    <color name="colorAcvtiveDot">#F2D503</color>
+    <color name="colorGray">#8b897d</color>
+</resources>

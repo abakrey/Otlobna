@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Views.AvailableTayarActivity">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/white_border"
+        android:id="@+id/relative1"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/im_magnify"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/input_search"
+            android:layout_alignLeft="@+id/im_magnify"
+            android:hint="Enter address or city"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:imeOptions="actionSearch"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/im_magnify"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="11dp"
+            android:layout_weight="3"
+            android:src="@drawable/ic_magnify"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/map"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_border"
+        android:id="@+id/go"
+        android:gravity="center"
+        android:text="continue"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="130dp"
+        />
+
+</RelativeLayout>

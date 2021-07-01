@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/row_available_tayar_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="4dp"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="@dimen/content_request_order_now_container_radius"
+    app:cardElevation="@dimen/content_request_order_now_container_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/row_available_tayar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/row_available_tayar_btn_margin_left"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="@dimen/row_available_tayar_btn_padding_left"
+            android:paddingRight="@dimen/row_available_tayar_btn_padding_right"
+            android:text="@string/choose_tayar_button"
+            android:textSize="@dimen/row_available_tayar_btn_text_size" />
+
+        <TextView
+            android:id="@+id/row_available_tayar_name"
+            android:layout_width="@dimen/row_available_tayar_name_width"
+            android:layout_height="@dimen/row_available_tayar_name_hiegth"
+            android:layout_gravity="center|right"
+            android:layout_marginLeft="@dimen/row_available_tayar_name_margin_left"
+            android:layout_marginRight="@dimen/row_available_tayar_name_margin_right"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:text="احمد محمد البكر طلب سليمان "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/row_available_tayar_name_text_size" />
+
+        <ImageView
+            android:id="@+id/row_available_tayar_img"
+            android:layout_width="@dimen/row_available_tayar_img_width"
+            android:layout_height="@dimen/row_available_tayar_img_height"
+            android:layout_gravity="center|right"
+            android:layout_marginLeft="@dimen/row_available_tayar_img_margin_left"
+            android:layout_marginRight="@dimen/row_available_tayar_img_margin_right"
+            android:src="@drawable/delivery_man" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
